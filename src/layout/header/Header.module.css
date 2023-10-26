@@ -1,0 +1,52 @@
+.header{
+   background-color: rgba(212, 232, 217, 1);
+    padding: 33px 0;
+}
+
+.container{
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.logoWrapper {
+    grid-column: 1/2 span;
+}
+
+.logoImage{
+margin-right: 8px;
+}
+
+.logoText{
+    color: #598D66;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav {
+    grid-column: 7/6 span;
+}
+
+.menu {
+    list-style-type:  none;
+    display: flex;
+    gap: 60px;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: #2C2D35;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.basketImage{
+    width: 24px;
+    height: 24px;
+}
