@@ -1,0 +1,52 @@
+.container {
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.reproductionsTitle{
+    color: #2C2D35;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px ;
+}
+
+.WrapperButtons{
+    grid-column: 8/5 span;
+    display: flex;
+    gap:32px
+}
+
+.reproductionsButton{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #D4E8D9;
+    background: #D4E8D9;
+}
+
+.reproductionsButton:hover{
+    color:rgba(244, 246, 245, 1) ;
+    background: #376B44;
+    border: 1px solid #376B44;
+}
+.reproductionsButton:focus{
+    color: #2C2D35;
+    border: 2px solid #598D66;
+    background: #D4E8D9;
+}
+.reproductionsButton:active{
+    color:rgba(244, 246, 245, 1) ;
+    background: #376B44;
+}
+
+.reproductionsItems{
+    grid-column: 12 span;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px ;
+}

@@ -7,15 +7,17 @@
     column-gap: 30px;
     row-gap: 30px;
 }
-.heroImage{
+
+.heroImage {
     grid-column: 6 span
 }
-.textWrapper{
+
+.textWrapper {
     grid-column: 7/6 span;
-align-self: center;
+    align-self: center;
 }
 
-.title{
+.title {
     margin: 0;
     white-space: break-spaces;
     color: #2C2D35;
@@ -24,15 +26,33 @@ align-self: center;
     line-height: 110%;
 }
 
-.titleSpan{
+.titleSpan {
     color: #598D66;
     font-size: 60px;
     font-weight: 500;
     line-height: 110%;
 }
-.text{
+
+.text {
     color: #86928B;
     font-size: 18px;
     font-weight: 500;
     line-height: 150%; /* 27px */
 }
+
+.buttonHero {
+    border: 1px solid #598D66;
+    padding: 20px 60px;
+    cursor: pointer;
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.buttonHero:hover{
+    color: #FFF;
+    background: #376B44;
+}
+
+
+

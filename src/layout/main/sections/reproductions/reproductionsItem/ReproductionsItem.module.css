@@ -1,0 +1,51 @@
+.reproductionsItem{
+    padding:20px 20px 30px 20px;
+    background: #E1EDE6;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.imageArt{
+    width: 310px;
+    height: 422px;
+}
+
+.author{
+    margin-top: 12px;
+    color: #86928B;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nameArt{
+    color: #2C2D35;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.canvas{
+    color: #2C2D35;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price{
+    margin: 20px 0;
+    color: #598D66;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.itemButton{
+    border: 1px solid #598D66;
+    padding: 20px 60px;
+    cursor: pointer;
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.itemButton:hover{
+    color: #FFF;
+    background: #376B44;
+}
