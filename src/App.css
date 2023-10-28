@@ -11,5 +11,6 @@
     flex-direction: column;
     width: 1440px;
     font-family: Raleway, sans-serif;
+    position: relative;
 }
 

@@ -1,0 +1,62 @@
+.promo {
+    margin: 70px 0;
+    position: relative;
+    background: #000;
+}
+.container {
+    position: absolute;
+    top:70px;
+    left: 165px;
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.backgroundImage {
+    opacity: 0.6;
+}
+
+.wrapperContent {
+    grid-column: 1/6 span;
+}
+
+.titleWrapper {
+    display: flex;
+    gap:20px
+}
+
+.promoTitle {
+    color: #F4F6F5;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%; /* 40px */
+}
+
+.promoTextWrapper {
+    margin: 20px 0 60px 0;
+}
+
+.promoText {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.promoButton {
+    border: 1px solid #EEDB6D;
+    background: #EEDB6D;
+    padding: 20px 60px;
+    cursor: pointer;
+    color: #2C2D35;;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.promoButton:hover {
+    background: #FAEB97;
+}
+
