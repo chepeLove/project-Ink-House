@@ -1,0 +1,54 @@
+.frame {
+   padding: 70px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.imageWrapper {
+    grid-column: 1/5 span;
+}
+
+.frameImage {
+    position: relative;
+}
+
+.armImage {
+    position: absolute;
+    bottom: 118px;
+    left: 213px;
+}
+
+.textWrapper {
+    grid-column: 6/7 span;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 44px 0;
+}
+
+.frameTitle {
+    color: #2C2D35;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 110%; /* 44px */
+}
+
+.text {
+    color: #2C2D35;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+}
+
+.avatarWrapper {
+    display: flex;
+    gap: 30px;
+}
