@@ -10,6 +10,7 @@
     -moz-column-gap: 30px;
     column-gap: 30px;
     row-gap: 30px;
+    position: relative;
 }
 
 .imageWrapper {
@@ -17,13 +18,13 @@
 }
 
 .frameImage {
-    position: relative;
+
 }
 
 .armImage {
     position: absolute;
-    bottom: 118px;
-    left: 213px;
+    bottom: 48px;
+    left: 43px;
 }
 
 .textWrapper {
