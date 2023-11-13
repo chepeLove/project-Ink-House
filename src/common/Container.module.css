@@ -1,0 +1,9 @@
+.container{
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    row-gap: 30px;
+}
