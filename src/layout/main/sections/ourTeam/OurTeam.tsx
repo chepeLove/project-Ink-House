@@ -1,17 +1,16 @@
 import React from 'react';
-import style from './Frame.module.css'
-import frameImage from '../../../../assets/frame.jpg'
+import style from './OurTeam.module.css'
+import common from '../../../../common/Container.module.css'
 import armImage from '../../../../assets/arm.png'
 import avatar1 from '../../../../assets/avatar1.svg'
 import avatar2 from '../../../../assets/avatar2.svg'
 import avatar3 from '../../../../assets/avatar3.svg'
 
-export const Frame = () => {
+export const OurTeam = () => {
     return (
-        <section className={style.frame}>
-            <div className={style.container}>
+        <section className={style.OurTeam}>
+            <div className={common.container}>
                 <div className={style.imageWrapper}>
-                    <img className={style.frameImage} src={frameImage} alt="frame"/>
                     <img  className={style.armImage} src={armImage} alt="arm"/>
                 </div>
                 <div className={style.textWrapper}>
