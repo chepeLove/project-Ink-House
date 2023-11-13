@@ -3,16 +3,6 @@
     padding: 33px 0;
 }
 
-.container{
-    max-width: 1110px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    -moz-column-gap: 30px;
-    column-gap: 30px;
-    row-gap: 30px;
-}
-
 .logoWrapper {
     grid-column: 1/2 span;
 }
@@ -44,6 +34,12 @@ margin-right: 8px;
     font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 500;
+}
+
+.buttonBasket{
+    border: none;
+    cursor: pointer;
+    background-color:rgba(212, 232, 217, 1) ;
 }
 
 .basketImage{
