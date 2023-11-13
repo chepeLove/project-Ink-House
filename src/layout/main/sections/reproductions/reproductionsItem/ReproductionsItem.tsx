@@ -1,5 +1,6 @@
 import React, {FC} from 'react';
 import style from './ReproductionsItem.module.css'
+import {Button} from "../../../../../component/Button";
 
 type ReproductionsItemType = {
     srcCard: string
@@ -23,7 +24,7 @@ export const ReproductionsItem: FC<ReproductionsItemType> = ({
             <h3 className={style.nameArt}>{nameArt}</h3>
             <span className={style.canvas}>{canvas}</span>
             <span className={style.price}>{price}</span>
-            <button className={style.itemButton}>В корзину</button>
+            <Button name={'В корзину'}/>
         </div>
     );
 };

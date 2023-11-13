@@ -1,5 +1,6 @@
 import React from 'react';
 import style from "./Reproductions.module.css";
+import common from '../../../../common/Container.module.css'
 import card1 from '../../../../assets/card-art-1.jpg'
 import card2 from '../../../../assets/card-art-2.jpg'
 import card3 from '../../../../assets/card-art-3.jpg'
@@ -10,13 +11,14 @@ import {ReproductionsItem} from "./reproductionsItem/ReproductionsItem";
 
 export const Reproductions = () => {
     return (
-        <section className={style.container}>
-              <h2 className={style.reproductionsTitle}>Репродукции</h2>
-               <div className={style.WrapperButtons}>
-                   <button className={style.reproductionsButton}>Франция</button>
-                   <button className={style.reproductionsButton}>Германия</button>
-                   <button className={style.reproductionsButton}>Англия</button>
-               </div>
+        <section>
+            <div  className={common.container}>
+                <h2 className={style.reproductionsTitle}>Репродукции</h2>
+                <div className={style.WrapperButtons}>
+                    <button className={style.reproductionsButton}>Франция</button>
+                    <button className={style.reproductionsButton}>Германия</button>
+                    <button className={style.reproductionsButton}>Англия</button>
+                </div>
                 <div className={style.reproductionsItems}>
                     <ReproductionsItem srcCard={card1}
                                        author={"Марсель Руссо"}
@@ -55,6 +57,7 @@ export const Reproductions = () => {
                                        price={'20 000 руб'}
                     />
                 </div>
+            </div>
         </section>
     );
 };

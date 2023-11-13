@@ -36,16 +36,3 @@
     font-weight: 500;
 }
 
-.itemButton{
-    border: 1px solid #598D66;
-    padding: 20px 60px;
-    cursor: pointer;
-    color: #598D66;
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.itemButton:hover{
-    color: #FFF;
-    background: #376B44;
-}
