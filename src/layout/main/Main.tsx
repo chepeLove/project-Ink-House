@@ -2,7 +2,7 @@ import React from 'react';
 import {Hero} from "./sections/hero/Hero";
 import {Reproductions} from "./sections/reproductions/Reproductions";
 import {Promo} from "./sections/promo/Promo";
-import {Frame} from "./sections/frame/Frame";
+import {OurTeam} from "./sections/ourTeam/OurTeam";
 
 export const Main = () => {
     return (
@@ -10,7 +10,7 @@ export const Main = () => {
             <Hero/>
             <Reproductions/>
             <Promo/>
-            <Frame/>
+            <OurTeam/>
         </main>
     );
 };
