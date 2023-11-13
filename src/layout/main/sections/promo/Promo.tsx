@@ -1,13 +1,12 @@
 import React from 'react';
-import backgroundImage from '../../../../assets/promo-backgraund.jpg'
 import style from './Promo.module.css'
+import common from '../../../../common/Container.module.css'
 import starLogo from '../../../../assets/star-promo.svg'
 
 export const Promo = () => {
     return (
         <section className={style.promo}>
-            <img className={style.backgroundImage} src={backgroundImage} alt="photo"/>
-            <div className={style.container}>
+            <div className={common.container}>
                 <div className={style.wrapperContent}>
                     <div className={style.titleWrapper}>
                         <img src={starLogo} alt="logo"/>

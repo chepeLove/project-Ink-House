@@ -1,22 +1,9 @@
 .promo {
+    opacity: 0.9;
+    background: url('../../../../assets/promo-backgraund.jpg'), lightgray 0% 0% / 100px 100px repeat;
+    mix-blend-mode: soft-light;
+    padding: 70px 0;
     margin: 70px 0;
-    position: relative;
-    background: #000;
-}
-.container {
-    position: absolute;
-    top:70px;
-    left: 165px;
-    max-width: 1110px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    -moz-column-gap: 30px;
-    column-gap: 30px;
-    row-gap: 30px;
-}
-.backgroundImage {
-    opacity: 0.6;
 }
 
 .wrapperContent {
